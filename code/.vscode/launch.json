@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch miniCaculator",
+      "request": "launch",
+      "mainClass": "model.miniCaculator",
+      "projectName": "cpp_laptrinh_f1bf7854"
+    },
+    {
+      "type": "java",
+      "name": "Launch helloworld/Stringtest",
+      "request": "launch",
+      "mainClass": "helloworld/Stringtest",
+      "projectName": "helloworld"
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "cpp_laptrinh_f1bf7854"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "cpp_laptrinh_e3a019f7"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "c:\\Users\\ASUS TUF\\OneDrive\\Máy tính\\cpp_laptrinh",
+      "environment": [],
+      "program": "c:\\Users\\ASUS TUF\\OneDrive\\Máy tính\\cpp_laptrinh\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "externalConsole": false
+    }
+  ]
+}
