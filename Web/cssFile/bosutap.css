@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    font-family: Tahoma;
+    padding: 0px;
+}
+
+.contain {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.slide-show {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+.item img {
+    width: 700px;
+    height: 500px;
+    animation: zoom 1s ease;
+}
+
+.footer {
+    height: 120px;
+    background-color: green;
+}
+
+.footer p {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.item1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: yellow;
+}
+
+.item1 b {
+    font-size: 30px;
+    color: red;
+    border-radius: 10px 10px;
+    border: 3px solid green;
+
+}
+
+.text {
+    margin-bottom: 30px;
+}
+
+.slider {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #c21563;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+#viTri {
+    font-size: 40px;
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

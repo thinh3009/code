@@ -1,0 +1,3 @@
+Hanoi,Vietnam
+Milan,Italy
+Berlin,Germany

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Đồ thể thao</title>
+    <link rel="icon" href ="image/R.ico">
+    <link rel="stylesheet" href="./cssFile/banhang.css">
+    <script src="./jsFile/test.js"></script>    
+</head>
+
+<body>
+    <div class="contain">
+        <table>
+            <caption>
+                Danh sách đồ có tại shop
+                <div class="mucgia" id="gioHang">
+                    <select id="chonGia" style="margin: 10px 10px; color: red; padding: 5px 5px;" onchange="locSanPhamTheoGia()">
+                        <option value="Chọn mức giá">Chọn mức giá</option>
+                        <option value="Dưới 100k">Dưới 100k</option>
+                        <option value="100k-500k">Từ 100k đến 600k</option>
+                        <option value="Trên 600k">Trên 600k</option>
+                    </select>
+    
+                </div>
+            </caption>
+            
+            <thead>
+                <tr>
+                    <th><input type="checkbox" name="" id="chonhet" onchange="chonHet(this)"></th>
+                    <th>Tên món</th>
+                    <th>Giá</th>
+                    <th>Ảnh minh họa</th>
+                    <th>Số lượng</th>
+                    <th>Mua</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" name="chon" data-id="1" onchange="anHienSanPham(this)"></td>
+                    <td id="pro" data-price="400000">Áo thi đấu clb</td>
+                    <td id="ct">600000</td>
+                    <td><img src="./image/bh1.jpg" alt="" style="width: 60px;height: 60px;"></td>
+                    <td><input id="qty" type="number" onchange = "capNhatGioHang(this)"/></td>
+                    <td><button onclick="them(this)">Chọn</button></td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox" name="chon" data-id="1" onchange="anHienSanPham(this)"></td>
+                    <td id="pro" data-price="400000">Giày thể thao nam-nữ</td>
+                    <td id="ct">40000</td>
+                    <td><img src="./image/bh2.jpg" alt="" style="width: 60px;height: 60px;"></td>
+                    <td><input id="qty" type="number" onchange = "capNhatGioHang(this)"/></td>
+                    <td><button onclick="them(this)">Chọn</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="chon" data-id="1" onchange="anHienSanPham(this)"></td>
+                    <td id="pro" data-price="400000">Găng tay thủ môn</td>
+                    <td id="ct">100000</td>
+                    <td><img src="./image/bh3.jpg" alt="" style="width: 60px;height: 60px;"></td>
+                    <td><input id="qty" type="number" onchange = "capNhatGioHang(this)"/></td>
+                    <td><button onclick="them(this)">Chọn</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="chon" data-id="1" onchange="anHienSanPham(this)"></td>
+                    <td id="pro" data-price="400000">Bóng đá sân nhân tạo</td>
+                    <td id="ct">24000</td>
+                    <td><img src="./image/bh4.jpg" alt="" style="width: 60px;height: 60px;"></td>
+                    <td><input id="qty" type="number" onchange = "capNhatGioHang(this)"/></td>
+                    <td><button onclick="them(this)">Chọn</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="chon" data-id="1" onchange="anHienSanPham(this)"></td>
+                    <td id="pro" data-price="400000">Áo thi đấu thủ môn</td>
+                    <td id="ct">17000</td>
+                    <td><img src="./image/bh5.jpg" alt="" style="width: 60px;height: 60px;"></td>
+                    <td><input id="qty" type="number" onchange = "capNhatGioHang(this)"/></td>
+                    <td><button onclick="them(this)">Chọn</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <hr style="margin: 20px 0" />
+        <table id="cart">
+            <caption>
+                GIỎ HÀNG CỦA BẠN <br>
+            </caption>
+
+        </table>
+        <h3>
+            TỔNG SỐ TIỀN: <span id="tong">0</span>
+
+        </h3>
+    </div>
+</body>
+
+</html>

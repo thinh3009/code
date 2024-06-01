@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    padding: 10px;
+    background: white;
+    background-image: url("/20h1120258_BuiDucThinh_3/image/background.jpg");
+}
+.header{
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: blue;
+
+}
+.header h1{
+    font-size: 40px;
+
+}
+.header p{
+    font-size: 20px;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: #7cd219d1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: red;
+}
+.topnav a:hover{
+    background-color: green; color: white;
+}
+.leftcolumn{
+    float: left;
+    width: 75%;
+
+}
+.rightcomlumn{
+    float: left;
+    width: 25%;
+    background-color: #d8e4f4;
+    padding-left: 20px;
+}
+.img1{
+    width: 100%;
+    height: 200px;
+}
+.card1{
+    width: 30%;
+    background-color: white;
+    padding: 4px;
+    margin: 10px;
+    float: left;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.vid{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+p {
+    font-family: monospace;
+    font-size: 3em;
+    animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    margin-top: 10px;
+}
+.btn_right{
+    background-color: burlywood;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+button{
+    background-color: green;
+    color: yellow;
+    width: 200px;
+    height: 50px;
+    right: 40px;
+    margin: 10px;
+    left: 30px;
+    font-size: 20px;
+    border-radius: 20px ;
+}
+button:hover{
+    background-color: brown;
+}

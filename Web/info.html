@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/Facion.ico">
+    <title>Trang chủ-News</title>
+    <link rel="stylesheet" href="./cssFile/infoFile.css">
+    <style>
+        .dropbtn{
+            background-color: red;
+            color: black;
+            padding: 16px;
+            font-size: 19px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 5px 10px;
+            margin: 1px;
+            text-decoration: none;
+            display: block;
+            background-color: azure;
+        }
+        .dropdown-content a:hover {
+            background-color: blue;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    
+    <div class="header" style="background-image: url(./image/bgroundHead.jpg);">
+        <h1><b style="color: black; font-size: 80px;">WellCome Football</b></h1>
+        <p><b>Bóng đá - Cá độ - Tài xỉu</b></p>
+    </div>
+    <div class="topnav">
+        <a href="web.html" style="color:black;font-size: 19px; position: relative;"> <b>Trang chủ</b></a>
+        <a href="#" style="color:black;font-size: 19px; position: relative;left: 20px;"><b>Cá độ - Tài xỉu</b></a>
+        <div class="dropdown" style="position: relative;left:50px;">
+            <button class="dropbtn"><b>Video</b></button>
+            <div class="dropdown-content">
+                <a href="./video1.html">Video Bóng Đá</a>
+                <a href="./video2.html">Video Hightlight</a>
+                <a href="#">Video Cầu Thủ</a>
+            </div>
+        </div>
+        <div class="dropdown" style="position: relative;left: 100px;">
+            <button class="dropbtn"><b>Các giải đấu</b></button>
+            <div class="dropdown-content">
+                <a href="#">Premier Leauge</a>
+                <a href="#">Laliga</a>
+                <a href="#">VietNam Leauge</a>
+                <a href="#">BudesLiga</a>
+            </div>
+        </div>
+       
+        <a href="#" style="float: right;color:black;font-size: 19px;position: relative; right: 10px;"><b>Đăng nhập/
+               Đăng ký</b></a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div>
+                <h2>
+                    Mpape bị giới chủ bắt cóc
+                </h2>
+                <h5>T3, 29/06/2023, 00:00 (GMT+7)</h5>
+                <p style="font-size: 20px;" align="justify" >Thông tin này càng trở nên có cơ sở bởi theo báo chí Tây Ban Nha, sau trận hòa 0-0 giữa Real vs Betis tại vòng 38 La Liga mới đây, chủ tịch Florentino Perez 
+                    đã vào phòng thay đồ thông báo với các cầu thủ rằng Mbappe sẽ không gia nhập CLB ở hè 2022. Trước đó, bà Fayza Al-Amari - mẹ của Mbappe - tiết lộ cậu con trai đã đạt thỏa 
+                    thỏa thuận với cả PSG lẫn Real, và công việc cuối cùng của nhà ĐKVĐ World Cup là lựa chọn đặt bút ký hợp đồng với đội bóng nào. "Sẽ không còn cuộc họp nào khác về tương lai của Mbappe. Những cuộc họp đã kêt thúc rồi. 
+                    Giờ chúng tôi đã đạt thỏa thuận cả với Real Madrid lẫn PSG. Mọi cuộc thương thảo đã xong xuôi và Mbappe giờ sẽ phải lựa chọn. Đề nghị của đôi bên là tương đồng, không có khác biệt gì lớn cả. Mbappe sẽ là người quyết 
+                    định. Đề nghị của Real Madrid thì cho phép chúng tôi kiểm soát hoàn toàn về bản quyền hình ảnh, đổi lại, có một khoản tiền bù đắp cho điều này", mẹ Mbappe tiết lộ.
+                </p>
+                <img width="85%" src="./image/img3.jpeg" alt="">
+                <p style="color: black; font-size: 20px;">
+                    Như vậy, với tuyên bố của Perez, rất có khả năng phi vụ bom tấn này đã đổ bể. Cách đây ít ngày, truyền thông Tây Ban Nha cũng hé lộ PSG đã đề nghị Mbappe ở lại CLB với nhiều đặc quyền chưa từng có, trong đó nổi bật là 
+                    cho phép tiền đạo này "kiểm soát hoàn toàn dự án thể thao của PSG". Chưa hết, Mbappe sẽ nhận ngay 100 triệu bảng tiền lót tay, kèm mức lương 4 triệu bảng/tháng - cao nhất thế giới.
+                </p>
+            </div>
+        </div>
+        <div class="rightcomlumn">
+            <div class="vid">
+                <h2>Giới thiệu</h2>
+                <iframe  src="./image/video1.mp4" frameborder="0"></iframe>
+                <p style="color: aqua;font-size: 20px;position: relative;top: 5px;background-color: green;"
+                    class="animation">Tin tức nổi bật</p>
+            </div>
+            <div class="vid">
+                <h2>Thông tin liên hệ</h2>
+                <img src="./image/icon.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+            </div>
+        </div>
+    </div>
+
+    <footer >
+        <h4 style="padding: 10px; text-align: center;background:green;margin-top: 10px;font-size: 35px;"><b>Web site cá độ đá banh số 1 Việt Nam</b></h4>
+    </footer>
+    
+
+
+
+</body>
+
+</html>

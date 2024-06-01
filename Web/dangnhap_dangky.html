@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Đăng nhập - Đăng ký</title>
+    <link rel="icon" href="image/5506-200.ico">
+    <link rel="stylesheet" href="cssFile/dangky.css">
+
+    </script>
+</head>
+
+<body>
+    <div class="contain">
+        <form action="data2.php" method="post">
+            <div class="dangKy">
+                <h1 class="dkkh">ĐĂNG KÍ THÀNH VIÊN</h1>
+            </div>
+
+            <div class="chung">
+                <label for="name">Tên</label>
+                <input type="text" class="input-field" id="name" name="name">
+                
+            </div>
+            <div class="chung">
+                <label for="passw">Mật khẩu</label>
+                <input type="text" class="input-field" id="name" name="passw">
+                
+            </div>
+            <div class="chung">
+                <label for="email">Email</label>
+                <input type="email" class="input-field" id="email" name="email">
+                
+            </div>
+            <div class="chung">
+                <label for="id">ID</label>
+                <input type="text" class="input-field" id="id" name="id">
+                
+            </div>
+            <div class="chung">
+                <label for="gt">Giới tính</label>
+                <select name="gt" id="gt">
+                    <option value="male">Nam</option>
+                    <option value="female">Nữ</option>
+                    <option value="none">Khác</option>
+                </select>
+
+            </div>
+            <div class="chung">
+                <label for="st">Sở thích</label>
+                <div class="cbox">
+                    <input type="radio" name="sothich" value="docsach">Đọc sách<br>
+                    <input type="radio" name="sothich" value="dulich">Du lịch<br>
+                    <input type="radio" name="sothich" value="amnhac">Âm nhạc<br>
+                    <input type="radio" name="sothich" value="amthuc">Ẩm thực<br>
+                    <input type="radio" name="sothich" value="khac">Khác<br>
+
+                </div>
+                    
+                
+
+            </div>
+
+            <div class="chung">
+                <label for="nation">Quốc gia</label>
+                <select name="nation" id="gt">
+                    <option value="vn">VietNam</option>
+                    <option value="khac">Khac</option>
+                    
+                </select>
+            </div>
+            <div class="chung">
+                <label for="note">Chú thích</label>
+                <textarea name="note" id="note" cols="30" rows="10"></textarea>
+            </div>
+            <div class="dk">
+                <button style="font-size: 15px;text-align:center;border-radius:20px 20px; background-color: yellow;"
+                    id="btnDangKy" onclick="check()">ĐĂNG KÝ</button>
+            </div>
+            <script src="./jsFile/dangnhap_dangky.js"></script>
+
+        </form>
+
+    </div>
+</body>
+
+</html>

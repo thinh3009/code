@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ-News</title>
+    <link rel="icon" href="./image/Facion.ico">
+    <link rel="stylesheet" href="./cssFile/infoFile.css">
+    <style>
+        .dropbtn {
+            background-color: red;
+            color: black;
+            padding: 16px;
+            font-size: 19px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 5px 10px;
+            margin: 1px;
+            text-decoration: none;
+            display: block;
+            background-color: azure;
+        }
+
+        .dropdown-content a:hover {
+            background-color: blue;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    
+    <div class="header" style="background-image: url(./image/bgroundHead.jpg);">
+        <h1><b style="color: black; font-size: 80px;">WellCome Football</b></h1>
+        <p><b>Bóng đá - Cá độ - Tài xỉu</b></p>
+    </div>
+    <div class="topnav">
+        <a href="web.html" style="color:black;font-size: 19px; position: relative;"> <b>Trang chủ</b></a>
+        <a href="#" style="color:black;font-size: 19px; position: relative;left: 20px;"><b>Cá độ - Tài xỉu</b></a>
+        <div class="dropdown" style="position: relative;left:50px;">
+            <button class="dropbtn"><b>Video</b></button>
+            <div class="dropdown-content">
+                <a href="./video1.html">Video Bóng Đá</a>
+                <a href="./video2.html">Video Hightlight</a>
+                <a href="#">Video Cầu Thủ</a>
+            </div>
+        </div>
+        <div class="dropdown" style="position: relative;left: 100px;">
+            <button class="dropbtn"><b>Các giải đấu</b></button>
+            <div class="dropdown-content">
+                <a href="#">Premier Leauge</a>
+                <a href="#">Laliga</a>
+                <a href="#">VietNam Leauge</a>
+                <a href="#">BudesLiga</a>
+            </div>
+        </div>
+
+        <a href="#" style="float: right;color:black;font-size: 19px;position: relative; right: 10px;"><b>Đăng nhập/
+                Đăng ký</b></a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div>
+                <h2>
+                    Cầu thủ chạy cánh Riyad Mahrez đã
+                    đạt thỏa thuận cá nhân với CLB Al-Ahli
+                </h2>
+                <h5>T3, 29/06/2023, 00:00 (GMT+7)</h5>
+                <p style="font-size: 20px;" align="justify" >
+                    Nhà ĐKVĐ Premier League và Champions League sẽ nhận thù lao 43 triệu bảng/năm kèm các khoản thưởng với hợp đồng 2 năm tại Al-Ahli. Đây là mức 
+                    lương cao hơn 5 lần so với những gì đang nhận ở Man City (8,5 triệu bảng). Vấn đề còn lại của Al-Ahli chỉ là thuyết phục Man City nhả người với 
+                    mức phí chuyển nhượng hợp lý. Ngôi sao người Algeria sẽ bước sang tuổi 33 vào tháng 2 năm sau, nên việc anh muốn rời Etihad thực tế cũng là điều 
+                    dễ hiểu. Tại Man City, Mahrez đã đoạt mọi danh hiệu cao quý, bao gồm "cú ăn ba" lịch sử mùa trước.
+                </p>
+                <img width="85%" src="./image/img6.jpg" alt="">
+                <p style="color: black; font-size: 20px;">
+                    Tại Man City, Mahrez hầu như chỉ được xem là phương án dự bị thay vì chắc suất đá chính. Sự xuất sắc của Bernardo Silva bên hành lang phải khiến 
+                    cơ hội xuất phát từ đầu của Mahrez trở nên khó khăn hơn. Với việc đã no nê danh hiệu, chuyển sang Al-Ahli kiếm tiền sẽ là nước đi hợp lý của Mahrez. 
+                    nhiều bằng thủ môn Ederson hay các hậu vệ như Akanji hay Ruben Dias.
+                    
+                </p>
+            </div>
+        </div>
+        <div class="rightcomlumn">
+            <div class="vid">
+                <h2>Giới thiệu</h2>
+                <iframe  src="./image/video1.mp4" frameborder="0"></iframe>
+                <p style="color: aqua;font-size: 20px;position: relative;top: 5px;background-color: green;"
+                    class="animation">Tin tức nổi bật</p>
+            </div>
+            <div class="vid">
+                <h2>Thông tin liên hệ</h2>
+                <img src="./image/icon.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+            </div>
+        </div>
+    </div>
+
+    <footer >
+        <h4 style="padding: 10px; text-align: center;background:green;margin-top: 10px;font-size: 35px;"><b>Web site cá độ đá banh số 1 Việt Nam</b></h4>
+    </footer>
+    
+
+
+
+</body>
+
+</html>

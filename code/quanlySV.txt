@@ -1,0 +1,24 @@
+ma lop: 20cn
+ten lop: cntt
+si so: 30
+mssv: 20h11
+ten: thinh
+ngay sinh: 2002
+lop: 3
+
+ma lop: 123
+ten lop: wer
+si so: 3
+mssv: 234
+ten: thwrht
+ngay sinh: 2003
+lop: 21
+
+ma lop: ưer
+ten lop: 32
+si so: 34
+mssv: rth
+ten: th
+ngay sinh: 2009
+lop: 4
+

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ-News</title>
+    <link rel="icon" href="./image/Facion.ico">
+    <link rel="stylesheet" href="./cssFile/infoFile.css">
+    <style>
+        .dropbtn {
+            background-color: red;
+            color: black;
+            padding: 16px;
+            font-size: 19px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 5px 10px;
+            margin: 1px;
+            text-decoration: none;
+            display: block;
+            background-color: azure;
+        }
+
+        .dropdown-content a:hover {
+            background-color: blue;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    
+    <div class="header" style="background-image: url(./image/bgroundHead.jpg);">
+        <h1><b style="color: black; font-size: 80px;">WellCome Football</b></h1>
+        <p><b>Bóng đá - Cá độ - Tài xỉu</b></p>
+    </div>
+    <div class="topnav">
+        <a href="web.html" style="color:black;font-size: 19px; position: relative;"> <b>Trang chủ</b></a>
+        <a href="#" style="color:black;font-size: 19px; position: relative;left: 20px;"><b>Cá độ - Tài xỉu</b></a>
+        <div class="dropdown" style="position: relative;left:50px;">
+            <button class="dropbtn"><b>Video</b></button>
+            <div class="dropdown-content">
+                <a href="./video1.html">Video Bóng Đá</a>
+                <a href="./video2.html">Video Hightlight</a>
+                <a href="#">Video Cầu Thủ</a>
+            </div>
+        </div>
+        <div class="dropdown" style="position: relative;left: 100px;">
+            <button class="dropbtn"><b>Các giải đấu</b></button>
+            <div class="dropdown-content">
+                <a href="#">Premier Leauge</a>
+                <a href="#">Laliga</a>
+                <a href="#">VietNam Leauge</a>
+                <a href="#">BudesLiga</a>
+            </div>
+        </div>
+
+        <a href="#" style="float: right;color:black;font-size: 19px;position: relative; right: 10px;"><b>Đăng nhập/
+                Đăng ký</b></a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div>
+                <h2>
+                    Deg a hồi kết của MU
+                </h2>
+                <h5>T3, 29/06/2023, 00:00 (GMT+7)</h5>
+                <p style="font-size: 20px;" align="justify" >
+                    Dường như De Gea đã chán ngấy câu chuyện đang diễn ra xung quanh việc gia hạn hợp đồng của anh với MU. 
+                    Và thủ thành 32 tuổi đã mượn mạng xã hội để đăng một thông điệp không quá khó hiểu. Chuyện là, cách đây 
+                    1 tuần, Quỷ đỏ thành Manchester thông báo trên trang web chính thức của CLB rằng, họ dự định gia hạn hợp 
+                    đồng với De Gea - người có giao kèo đáo hạn vào ngày 30/6 năm nay. Tuy nhiên, họ lại thay đổi kế hoạch vào 
+                    phút chót. Hôm 27/6 vừa qua, tờ The Athletic tung tin giật gân nói rằng, mặc dù De Gea đã ký hợp đồng mới 
+                    nhưng MU sau đó lại quyết định rút lại đề nghị.
+                </p>
+                <img width="85%" src="./image/img1.jpg" alt="">
+                <p style="color: black; font-size: 20px;">
+                    De Gea thậm chí đã xuống nước, sẵn sàng giảm sâu lương để ở lại. Song, với cách cư xử có phần “tuyệt tình” này, 
+                    cộng thêm cả việc MU đang theo đuổi quyết liệt Andre Onana của Inter, đã buộc thủ thành 32 tuổi phải cân nhắc lại 
+                    về tương lai của mình ở MU.
+                </p>
+            </div>
+        </div>
+        <div class="rightcomlumn">
+            <div class="vid">
+                <h2>Giới thiệu</h2>
+                <iframe  src="./image/video1.mp4" frameborder="0"></iframe>
+                <p style="color: aqua;font-size: 20px;position: relative;top: 5px;background-color: green;"
+                    class="animation">Tin tức nổi bật</p>
+            </div>
+            <div class="vid">
+                <h2>Thông tin liên hệ</h2>
+                <img src="./image/icon.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+            </div>
+        </div>
+    </div>
+
+    <footer >
+        <h4 style="padding: 10px; text-align: center;background:green;margin-top: 10px;font-size: 35px;"><b>Web site cá độ đá banh số 1 Việt Nam</b></h4>
+    </footer>
+    
+
+
+
+</body>
+
+</html>

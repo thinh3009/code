@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ-News</title>
+    <link rel="icon" href="./image/Facion.ico">
+    <link rel="stylesheet" href="./cssFile/infoFile.css">
+    <style>
+        .dropbtn {
+            background-color: red;
+            color: black;
+            padding: 16px;
+            font-size: 19px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 5px 10px;
+            margin: 1px;
+            text-decoration: none;
+            display: block;
+            background-color: azure;
+        }
+
+        .dropdown-content a:hover {
+            background-color: blue;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+    
+</head>
+
+
+<body>
+
+    
+    <div class="header" style="background-image: url(./image/bgroundHead.jpg);">
+        <h1><b style="color: black; font-size: 80px;">WellCome Football</b></h1>
+        <p><b>Bóng đá - Cá độ - Tài xỉu</b></p>
+    </div>
+    <div class="topnav">
+        <a href="web.html" style="color:black;font-size: 19px; position: relative;"> <b>Trang chủ</b></a>
+        <a href="#" style="color:black;font-size: 19px; position: relative;left: 20px;"><b>Cá độ - Tài xỉu</b></a>
+        <div class="dropdown" style="position: relative;left:50px;">
+            <button class="dropbtn"><b>Video</b></button>
+            <div class="dropdown-content">
+                <a href="./video1.html">Video Bóng Đá</a>
+                <a href="./video2.html">Video Hightlight</a>
+                <a href="#">Video Cầu Thủ</a>
+            </div>
+        </div>
+        <div class="dropdown" style="position: relative;left: 100px;">
+            <button class="dropbtn"><b>Các giải đấu</b></button>
+            <div class="dropdown-content">
+                <a href="#">Premier Leauge</a>
+                <a href="#">Laliga</a>
+                <a href="#">VietNam Leauge</a>
+                <a href="#">BudesLiga</a>
+            </div>
+        </div>
+
+        <a href="#" style="float: right;color:black;font-size: 19px;position: relative; right: 10px;"><b>Đăng nhập/
+                Đăng ký</b></a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div>
+                <h2>
+                    Huỳnh Như cô gái vàng của bóng đá Việt
+                </h2>
+                <h5>T3, 29/06/2023, 00:00 (GMT+7)</h5>
+                <p style="font-size: 20px;" align="justify" >
+                    Sáng nay (29/6), sau 1 ngày nghỉ ngơi khi di chuyển từ châu Âu về Việt Nam, thầy trò HLV Mai Đức Chung đã bước ngay 
+                    vào buổi tập để chuẩn bị cho World Cup bóng đá nữ 2023 vì thời gian không còn nhiều. Đặc biệt, điều mọi người quan 
+                    tâm nhất chính là chấn thương của Chương Thị Kiều và Huỳnh Như liệu có kịp hồi phục trước giải đấu lớn nhất hành tinh 
+                    mà ĐT nữ Việt Nam lần đầu được góp mặt.
+                </p>
+                <img width="85%" src="./image/img4.gif" alt="">
+                <p style="color: black; font-size: 20px;">
+                    HLV Mai Đức Chung chia sẻ: “Chúng tôi phải rất thận trọng và giữ chân cho Kiều, vì chỉ cần sơ sẩy nhỏ sự cố lại có thể 
+                    xảy ra. Kiều không thi đấu tại SEA Games 32. Còn trong chuyến tập huấn châu Âu vừa qua, tôi chỉ sử dụng Kiều khi đội đã 
+                    ghi bàn và em chơi đúng 10 phút cuối ở trận giao hữu thắng CLB nữ Schott Mainz (Đức) với tỷ số 2-0. Việc tung Kiều vào sân 
+                    để giúp em lấy lại cảm giác bóng. Ngày 22/7 tới, chúng ta sẽ thi đấu trận đầu tiên tại World Cup nữ gặp đương kim vô địch thế 
+                    giới Mỹ. Trước lúc đó, hy vọng Kiều sẽ đạt phong độ 100%”.
+                </p>
+            </div>
+        </div>
+        <div class="rightcomlumn">
+            <div class="vid">
+                <h2>Giới thiệu</h2>
+                <iframe  src="./image/video1.mp4" frameborder="0"></iframe>
+                <p style="color: aqua;font-size: 20px;position: relative;top: 5px;background-color: green;"
+                    class="animation">Tin tức nổi bật</p>
+            </div>
+            <div class="vid">
+                <h2>Thông tin liên hệ</h2>
+                <img src="./image/icon.jpg" alt="" style="display: block;margin-left: auto;margin-right: auto;width: 50%;">
+            </div>
+        </div>
+    </div>
+
+    <footer >
+        <h4 style="padding: 10px; text-align: center;background:green;margin-top: 10px;font-size: 35px;"><b>Web site cá độ đá banh số 1 Việt Nam</b></h4>
+    </footer>
+    
+
+
+
+</body>
+
+</html>

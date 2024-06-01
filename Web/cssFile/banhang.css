@@ -1,0 +1,36 @@
+.contain {
+    width: 600px;
+    margin: auto;
+    background: rgb(155, 173, 19);
+    padding: 20px;
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+caption {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(48, 109, 48);
+    color: yellow;
+
+}
+
+button {
+    width: 60px;
+    height: 25px;
+}
+thead{
+    background-color: rgb(23, 168, 59);
+    color: rgba(239, 243, 5, 0.901);
+}

@@ -1,0 +1,37 @@
+import turtle
+
+t= turtle.Turtle()
+s=turtle.Screen()
+s.bgcolor("black")
+t.hideturtle()
+t.goto(0,-10)
+
+t.pensize(3)
+t.color('red')
+t.begin_fill()
+t.left(140)
+t.forward(180)
+t.circle(-90,200)
+t.setheading(60)
+t.circle(-90,200)
+t.forward(178)
+t.end_fill()
+t.penup()
+t.goto(-75,130)
+t.pendown()
+t.color("white")
+t.write("ANH YEU EM<3",font=("verdana",20,"bold"))
+
+t.penup()
+t.goto(-200,-150)
+t.pendown()
+t.color('white')
+t.write("Chúc mừng sinh nhật ",font=("verdana",30,'bold'))
+
+t.penup()
+t.goto(-150,-200)
+t.pendown()
+t.color('white')
+t.write("Bé VYY của anhh",font=("verdana",28,"bold"))
+
+turtle.done()
