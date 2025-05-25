@@ -1,0 +1,62 @@
+.contain {
+    width: 600px;
+    margin: auto;
+    background: rgb(186, 225, 11);
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 20px 20px;
+
+}
+
+.chung {
+    margin-bottom: 30px;
+}
+
+.dangKy {
+    border: 4px solid green;
+    font-size: 10px;
+    margin-bottom: 20px;
+    background-color: aqua;
+}
+
+.button {
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.cbox {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    position: relative;
+    right: -80px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.cbox input {
+    width: 30px;
+}
+
+.chung label {
+    font-size: 20px;
+}
+
+.chung input {
+    font-size: 20px;
+}
+
+.chung option {
+    font-size: 20px;
+}
